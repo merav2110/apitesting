@@ -18,12 +18,12 @@ public class CreateUser {
 
     @Test
     public void positiveScenario(){
-
+        //TODO delete users in the end of the test to have the test robust
 
         LOGGER.info("Testing create user - response could should be valid:"+httpResponse.getUserAdded());
 
         //test input
-        String username="tomer";
+        String username="tomer121";
         String password = "1234"; //not a good password, just for testing purposes
 
         RestAssured.baseURI=testData.getRestAPI();

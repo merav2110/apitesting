@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 import javax.xml.ws.Response;
 import java.util.HashMap;
 
-
+//TODO add testing scenarios data to a dedicated file, not in the test
 
 public class Login {
 
@@ -54,6 +54,8 @@ public class Login {
 
 
         LOGGER.info("TokenUtils "+token);
+
+        //TODO - add save token so we can use it later on
     }
 
     @Test

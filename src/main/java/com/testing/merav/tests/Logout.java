@@ -19,6 +19,6 @@ public class Logout {
     @Test
     public void wrongTokenLogoutFailed(){
 
-        
+
     }
 }
